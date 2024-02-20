@@ -1,7 +1,7 @@
 **DATA BRICKS**
 
 - [x] Generate Restaurant model
-- [x] Seed
+- [ ] Seed
 
 **APPLICATIVE BRICKS**
 - [ ] Generate Restaurans controller
