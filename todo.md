@@ -11,5 +11,5 @@
 - [x] Read all
 - [x] Read one
 - [x] Create  one
-- [ ] Update one
-- [ ] Delete one
+- [x] Update one
+- [x] Delete one

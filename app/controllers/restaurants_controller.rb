@@ -19,8 +19,7 @@ class RestaurantsController < ApplicationController
   end
 
   def create
-    # @restaurant = Restaurant.create(restaurant_params)
-    # set_restaurant()
+    @restaurant = Restaurant.create(restaurant_params)
     redirect_to restaurant_path(@restaurant), notice: "Thanks for creating!"
   end
 
@@ -44,10 +43,11 @@ class RestaurantsController < ApplicationController
     # @restaurant = set_restaurant
     @restaurant.destroy
 
-    redirect_to restaurant_path, status: :see_other
+    redirect_to restaurants_path, status: :see_other
   end
 
   private
+
   def set_restaurant
     @restaurant = Restaurant.find(params[:id])
   end
