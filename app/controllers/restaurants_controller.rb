@@ -37,7 +37,7 @@ class RestaurantsController < ApplicationController
     redirect_to restaurant_path(@restaurant.id)
   end
 
-  def destroy
+  def destroys
     # find the given restaurant by id
     # delete it
     # @restaurant = set_restaurant
