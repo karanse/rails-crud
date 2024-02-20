@@ -1,15 +1,15 @@
 **DATA BRICKS**
 
 - [x] Generate Restaurant model
-- [ ] Seed
+- [x] Seed
 
 **APPLICATIVE BRICKS**
-- [ ] Generate Restaurans controller
+- [x] Generate Restaurans controller
 
 **USER ACTIONS (in silo! = route -> controller -> view)**
 
-- [ ] Read all
-- [ ] Read one
+- [x] Read all
+- [x] Read one
 - [ ] Create  one
 - [ ] Update one
 - [ ] Delete one
