@@ -17,4 +17,13 @@ Rails.application.routes.draw do
   # GET http://localhost:3000/restaurants/4
   # GET http://localhost:3000/restaurants/2
   get "/restaurants/:id", to: "restaurants#show", as: "restaurant"
+
+  # GET http://localhost:3000/restaurants/1/edit
+  get "/restaurants/:id/edit", to: "restaurants#edit", as: "edit_restaurant"
+
+  # PATCH http://localhost:3000/restaurants/1/
+  patch "/restaurants/:id", to: "restaurants#udpate"
+
+  # DELETE http://localhost:3000/restaurants/1/
+  delete "/restaurants/:id", to: "restaurants#destroy"
 end

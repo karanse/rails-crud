@@ -10,6 +10,6 @@
 
 - [x] Read all
 - [x] Read one
-- [ ] Create  one
+- [x] Create  one
 - [ ] Update one
 - [ ] Delete one
